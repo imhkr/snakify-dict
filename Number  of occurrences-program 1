@@ -1,0 +1,8 @@
+l=["abc","acd","acd","abc","abc"]
+l2=[]
+for i in l:
+    if i not in l2:
+        print(0,end=" ")
+    else:
+       print(l2.count(i),end=" ")
+    l2.append(i)
