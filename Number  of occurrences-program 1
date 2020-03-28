@@ -6,3 +6,19 @@ for i in l:
     else:
        print(l2.count(i),end=" ")
     l2.append(i)
+    
+    
+    
+    
+    
+    
+    
+    
+    OR
+    
+    
+  counter={}
+  for word in input().split():
+        counter[word]=counter.get(word,0)+1
+        print(counter[word] - 1,end=" ")
+    
