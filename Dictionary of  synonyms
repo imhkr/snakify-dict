@@ -1,0 +1,13 @@
+n=int(input("enter the number you want in dict"))
+d=dict()
+for i in range(n):
+    word=input("enter the word")
+    sy=input("enter the syn")
+    d[word]=sy
+w=input("enter the words to find")
+for i in d.keys():
+    if w in d.values() and w==d[i]:
+        print(i)
+    else:
+        continue
+        break
