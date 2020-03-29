@@ -1,0 +1,7 @@
+d=dict()
+for i in range(int(input())):
+    name,vote=input().split()
+    d[name]=d.get(name,0)+int(vote)
+    print(d)
+for name,vote in sorted(d.items()):
+    print(name,vote)
